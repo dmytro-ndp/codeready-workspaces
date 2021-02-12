@@ -9,6 +9,8 @@ projects:
       type: git
       location: "https://github.com/che-samples/kitchensink-example"
 components:
+  - type: cheEditor
+    reference: https://raw.githubusercontent.com/dmytro-ndp/codeready-workspaces/custom-plugin/dependencies/che-plugin-registry/v3/plugins/eclipse/che-theia/next/meta.yaml
   -
     type: chePlugin
     id: redhat/java8/latest
